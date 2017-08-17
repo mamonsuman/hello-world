@@ -1,0 +1,18 @@
+rabbitmq-server -detached
+Error:node with name "rabbit" already running on samsung
+this is the error the first statement gives.
+
+rabbitmqctl add_user easyErp 111111
+Error: unable to connect to node rabbit@samsung: nodedown
+
+Diagnostics
+attempted to contact rabbit@samsung
+*connected to epmd < port 4369 > on samsung
+*epmd reports node 'rabbit' running on port 25672
+*TCP connection succeeded but Erlang distribution failed
+*Authentication failed <rejected by remote node>, please check the Erlang cookie
+
+kindly help at your earliest.
+
+thanks and regards
+suman
